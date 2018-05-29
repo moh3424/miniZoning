@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie_edge">
+        <title>Mini Zooning</title>
+        <!-- la feuille de style externe -->
+        <!-- <link href="css/style.css" rel="stylesheet"> -->
+        <style>
+            body{
+                background: burlywood;
+            }
+            header{
+                background: violet;
+                font-weight:700;
+                height:200px;
+            }
+            .wrapper{
+                width: 1010px;
+                background: slateblue;
+                margin-left:10%;
+                margin-right: 10%;
+            }
+            .fond_bleu{
+                background: orange;
+                font-weight: 700;
+                height: 50px;
+            }
+            .vert{
+                background: greenyellow;
+                padding-left: 20px;
+                margin-left: 20px;
+                font-weight: 700;
+                height: 300px;
+                width:  300px;
+                float: left;
+            }
+            .fond_gris{
+                background: #333;
+                /* padding-right: 10px; */
+                /* margin-right:5px; */
+                margin-left: 2px;
+                margin-top: 10px;
+                font-weight: 700;
+                height: 300px;
+                width: 300px;
+                float: left;
+            }
+            .fond_footer{
+                background: plum;
+                height: 100px;
+                font-weight: 700;
+            }
+            .pulpe{
+                background: purple;
+                padding: 10px;
+                margin: 10px;
+                float: right;
+                width: 78%;
+                height:500px ;
+                /* display: block; */
+            }
+            .olive{
+                background: olive;
+                padding-right: 20px;
+                margin-right: 20px;
+                height:300px ;
+                width: 300px;
+                float:right;
+                /* clear: both; */
+            }
+            h2{
+                /* text-indent: center; */
+            }
+            .clear{
+                clear:both;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- debut de la div principale -->
+        <div class="wrapper"></div>
+            <header>
+               <h2>&lsaquo;HAEDER&rsaquo;</h2>
+            </header> 
+        
+            <nav class="fond_bleu"><!-- la navigation de la page -->
+               <h2> &lsaquo;NAVIGATEUR&rsaquo;</h2>
+                   
+            </nav>   
+            <aside class="fond_gris ">
+                <h2>&lsaquo;ASIDE&rsaquo;</h2>
+            </aside><!--Pour une division sur le côté de la page --> 
+            <!-- <div class="clear"></div>         -->
+                <section class="pulpe">
+                    <h2>&lsaquo;SECTION&rsaquo;</h2>
+                    <article class="vert">
+                        <!-- contenu contextuel -->
+                        <h2>&lsaquo;ARTICLE&rsaquo;</h2>
+                    </article>
+                    <aside class="olive"><h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
+                </section>
+                <!-- <div class="clear"></div> -->
+                
+                <section class="pulpe">
+                    <h2>&lsaquo;SECTION&rsaquo;</h2>
+                    <article class="vert">
+                            <article><h2>&lsaquo;ARTICLE&rsaquo;</h2></article><!-- contenu contextuel -->
+                    </article>
+                    <aside class="olive"> <h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
+                </section>  
+            <div class="clear"></div>
+            <footer class="fond_footer"><h2>&lsaquo;FOOTER&rsaquo;</h2></footer> <!--le pied de la page-->
+        </div>
+        <!-- fermeture de wrapper -->
+    </body>
+</html>
