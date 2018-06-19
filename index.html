@@ -11,6 +11,9 @@
             body{
                 background: burlywood;
             }
+            .sec{
+                background: white;
+            }
             header{
                 background: violet;
                 font-weight:700;
@@ -38,10 +41,8 @@
             }
             .fond_gris{
                 background: #333;
-                /* padding-right: 10px; */
-                /* margin-right:5px; */
                 margin-left: 2px;
-                margin-top: 10px;
+                /* margin-top: 10px; */
                 font-weight: 700;
                 height: 300px;
                 width: 300px;
@@ -54,12 +55,17 @@
             }
             .pulpe{
                 background: purple;
-                padding: 10px;
-                margin: 10px;
+                /* padding: 10px; */
+                /* margin: 10px; */
                 float: right;
-                width: 78%;
+                width: 80%;
                 height:500px ;
-                /* display: block; */
+            }
+            .fliot{
+                background: #99FF88;
+                width: 100%;
+                height: 400px;
+
             }
             .olive{
                 background: olive;
@@ -68,10 +74,6 @@
                 height:300px ;
                 width: 300px;
                 float:right;
-                /* clear: both; */
-            }
-            h2{
-                /* text-indent: center; */
             }
             .clear{
                 clear:both;
@@ -84,35 +86,36 @@
             <header>
                <h2>&lsaquo;HAEDER&rsaquo;</h2>
             </header> 
-        
-            <nav class="fond_bleu"><!-- la navigation de la page -->
-               <h2> &lsaquo;NAVIGATEUR&rsaquo;</h2>
-                   
-            </nav>   
-            <aside class="fond_gris ">
-                <h2>&lsaquo;ASIDE&rsaquo;</h2>
-            </aside><!--Pour une division sur le côté de la page --> 
-            <!-- <div class="clear"></div>         -->
-                <section class="pulpe">
-                    <h2>&lsaquo;SECTION&rsaquo;</h2>
-                    <article class="vert">
-                        <!-- contenu contextuel -->
-                        <h2>&lsaquo;ARTICLE&rsaquo;</h2>
-                    </article>
-                    <aside class="olive"><h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
-                </section>
-                <!-- <div class="clear"></div> -->
-                
-                <section class="pulpe">
-                    <h2>&lsaquo;SECTION&rsaquo;</h2>
-                    <article class="vert">
-                            <article><h2>&lsaquo;ARTICLE&rsaquo;</h2></article><!-- contenu contextuel -->
-                    </article>
-                    <aside class="olive"> <h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
-                </section>  
-            <div class="clear"></div>
-            <footer class="fond_footer"><h2>&lsaquo;FOOTER&rsaquo;</h2></footer> <!--le pied de la page-->
-        </div>
-        <!-- fermeture de wrapper -->
+            <div class="sec">
+                <nav class="fond_bleu"><!-- la navigation de la page -->
+                <h2> &lsaquo;NAVIGATEUR&rsaquo;</h2>
+                    
+                </nav>   
+                <aside class="fond_gris ">
+                    <h2>&lsaquo;ASIDE&rsaquo;</h2>
+                </aside><!--Pour une division sur le côté de la page --> 
+                    <section class="pulpe">
+                        <section class="fliot">
+                            <h2>&lsaquo;SECTION&rsaquo;</h2>
+                            <article class="vert">
+                                <!-- contenu contextuel -->
+                                <h2>&lsaquo;ARTICLE&rsaquo;</h2>
+                            </article>
+                            <aside class="olive"><h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
+                        </section>
+                    </section>                
+                    <section class="pulpe">
+                        <section class="fliot ajust">    
+                            <h2>&lsaquo;SECTION&rsaquo;</h2>
+                            <article class="vert">
+                                    <article><h2>&lsaquo;ARTICLE&rsaquo;</h2></article><!-- contenu contextuel -->
+                            </article>
+                            <aside class="olive"> <h2>&lsaquo;ASIDE&rsaquo;</h2></aside>
+                        </section>
+                    </section>  
+                    <div class="clear"></div>
+                <footer class="fond_footer"><h2>&lsaquo;FOOTER&rsaquo;</h2></footer> <!--le pied de la page-->
+            </div>
+        </div>    <!-- fermeture de wrapper -->
     </body>
 </html>
